@@ -1,0 +1,57 @@
+.border-wrapper {
+    border-radius: 4px;
+    border: 1px solid #2979ff;
+    padding: 12px;
+    max-height: calc(100vh - 50px);
+    overflow: auto;
+    margin: 20px;
+}
+
+.border-wrapper-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    max-width: 160px;
+}
+
+.border-wrapper-left .btn {
+    min-width: 100px;
+    margin-bottom: 12px;
+}
+
+.border-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.border-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            color-stop(0.44, rgb(122, 153, 217)),
+            color-stop(0.72, rgb(73, 125, 189)),
+            color-stop(0.86, rgb(28, 58, 148)));
+}
+
+.border-wrapper::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.box-components-6 {
+    border-radius: 4px;
+    border: 1px solid #2979ff;
+    padding: 12px;
+    margin: 20px;
+
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
